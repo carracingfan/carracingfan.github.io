@@ -19,27 +19,37 @@ h1 {
     /* em this many times regular size */
     text-align: center; 
 
-
-
     /* By default text is left align, this code centers headings */
 }
 
 p {
     font-family: "Arial", "Verdana";
-
-
 }
-
 
 ul {
     font-family: "Arial", "Verdana";
 }
 
-
 ol {
     font-family "Arial", "Verdana";
 }
 
+ /* unvisited link */
+a:link {
+    color: #ccc;
+}
+ 
+/* visited link */
+a:visited {
+    color: #B17AFA;
+}
 
-    
+/* mouse over link */
+a:hover {
+    color: #16dafd;
+ }
 
+ /* selected link */
+a:active {
+    color: #16dafd;
+}
