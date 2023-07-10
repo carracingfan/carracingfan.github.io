@@ -7,6 +7,19 @@
 <title>
 Final Project
 </title>
+<script>
+    document.addEventListener('play', function(e)
+    {
+        var audios = document.getElementsByTagName('audio');  
+        for (var i = 0, len = audios.length; i < len; i++)
+        {
+            if (audios[i] != e.target)
+            {
+                audios[i].pause();  
+            }  
+        }  
+    }, true);
+</script>
 </head>
 <body>
 <header>
@@ -152,9 +165,7 @@ What is Appalachian Music</a></audio>
 
 <div>
 <audio src="Audio/session.mp3"controls tabindex="0" />
-<audio src="Audio/session.mp3"controls tabindex="0
-" >Download <a href="
-Audio/session.mp3">
+<audio src="Audio/session.mp3"controls tabindex="0" >Download <a href="Audio/session.mp3">
 A song from the Bristol Sessions as it sounds today</a></audio>
 </div>
 
