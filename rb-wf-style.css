@@ -1,0 +1,45 @@
+/*In CSS and html best to colaberate with sighted persons to follow indentation*/
+
+body {
+    background-color: navy;
+        /* Dark Blue */
+    color: #ffffff;
+    /* Color White */
+    margin: 40px;
+    /*This creates a spaace on 4 sides of page */
+
+
+}
+
+h1 {
+    font-family: "georgia","Times New Roman";
+    /* 2 fonts are included in case a computer does not have 1 of them */
+    /* Serif fonts are easier to read when they are headings: Sans-serif are good for paragraphs */
+    font-size: 3em;
+    /* em this many times regular size */
+    text-align: center; 
+
+
+
+    /* By default text is left align, this code centers headings */
+}
+
+p {
+    font-family: "Arial", "Verdana";
+
+
+}
+
+
+ul {
+    font-family: "Arial", "Verdana";
+}
+
+
+ol {
+    font-family "Arial", "Verdana";
+}
+
+
+    
+
