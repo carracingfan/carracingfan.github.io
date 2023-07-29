@@ -1,0 +1,28 @@
+http://www.htmlforbeginners.net/activities/activity6photo.html
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+ <!--Write a web page which has a photo and add an description to this photo using an "alt tag".-->
+ <meta charset="utf-8"/>
+ <link rel="author" href="
+http://www.ourspaceourplace..org">
+ <link rel="stylesheet" type="text/css" href="http://www.htmlforbeginners.net/global.css">
+   
+ <title>
+ Coding Camp
+ </title> 
+ </head>
+ <body>
+ <header>
+ My Favorite Photo 
+ </header>
+ <img align="center" src="http://www.htmlforbeginners.net/images/picture-of-man-kayaking.jpg"alt="Photo of man in yellow kayak and red life vest kayaking on the ocean with a beautiful sunset
+" height="
+1280
+" width="
+960
+" />
+ <br />
+ <hr />
+ </body>
+ </html>

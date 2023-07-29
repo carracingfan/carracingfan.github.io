@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="
+en
+">
+<!--Create a web site which contains your favorite mp3 file.-->
+<head>
+ <meta charset="
+utf-8
+"/>
+<link rel="
+author
+" href="
+http://www.ourspaceourplace..org">
+<link rel="
+stylesheet
+" type="
+text/css
+" href="
+http://www.htmlforbeginners.net/global.css">
+   
+<title>
+Introduction To HTML Class Fall 2020
+</title> 
+</head>
+<body>
+<header>
+My Favorite MP3 File 
+</header>
+<h1>Native People Working On An Ancient Kayak</h1>
+<p>Here is an interesting audio clip of Native People repairing a kayak made from animal skins:</p>  
+<div>
+<audio src="
+http://www.htmlforbeginners.net/audio/the_last_kayak.mp3"
+controls tabindex="
+0
+" />
+20 <audio src="
+the_last_kayak.mp3"
+controls tabindex="
+0
+" >Download <a href="
+http://www.htmlforbeginners.net/audio/the_last_kayak.mp3">
+Repair of The Last Kayak</a></audio>
+</div>       
+	<!--I put the div tag here because I could not see my play controls to play the audio file in Internet Explorer.  eventually,the div tag will no longer
+be used.-->
+<br />
+</body>
+</html>
